@@ -1,0 +1,35 @@
+@page {
+    size: a4 portrait;
+    margin: 25mm 10mm 25mm 10mm;
+    counter-increment: page;
+    font-family: 'Times New Roman', Times, serif
+    font-size: 8pt;
+    white-space: pre;
+    color: grey;
+    @bottom-right {
+        content: 'Copyrights © Kartoza';
+    }
+    @top-center {
+        content: string(chapter);
+    }
+    @top-right {
+        content: 'Page ' counter(page);
+    }
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    font-stretch: normal;
+    text-align:justify;
+    white-space: normal;
+    padding-top: 2%;
+}
+#header{
+    color: black;
+    font-stretch: normal;
+    white-space: normal;
+    text-align: justify;
+    padding-top: 5%;
+}
