@@ -3,7 +3,7 @@ site_description: Project documentation using Mkdocs
 site_url: https://kartoza.com/en/
 site_author: Kartoza
 theme:
-  name: readthedocs
+  name: material
 use_directory_urls: false
 plugins:
   - search
