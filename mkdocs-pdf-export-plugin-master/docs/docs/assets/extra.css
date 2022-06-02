@@ -1,10 +1,14 @@
+@font-face {
+    src: url(../stylesheet/AvenirLTStd-Book.otf);
+    font-family: avenir;
+}
 @page {
     size: a4 portrait;
     margin: 25mm 10mm 25mm 10mm;
     counter-increment: page;
-    font-family: 'Times New Roman', Times, serif
+    font-family: avenir;
     font-size: 8pt;
-    white-space: pre;
+    white-space: normal;
     color: grey;
     @bottom-right {
         content: 'Copyrights © Kartoza';
@@ -19,17 +23,9 @@
 }
 
 body{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12pt;
-    font-stretch: normal;
-    text-align:justify;
-    white-space: normal;
-    padding-top: 2%;
-}
-#header{
-    color: black;
-    font-stretch: normal;
-    white-space: normal;
-    text-align: justify;
-    padding-top: 5%;
+  background-image: url('../img/kartozaBackgroundBorder.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: avenir;
+  height: 100vh;
 }
